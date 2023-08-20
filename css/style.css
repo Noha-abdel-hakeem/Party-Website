@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)) , url(../img/events-heavenly-header\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size:60px ;
+    line-height: 72px;
+    font-weight: 500;
+}
+.sideBarContainer{
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -225.7px;
+    display: flex;
+}
+
+.sideBarContainer .sideBar ul li a{
+    color: #fff;
+    transition: color 340ms;
+}
+.sideBarContainer .sideBar ul li a:hover{
+    color: #D62E33;
+}
+.fa-xmark{
+    cursor: pointer;
+}
+.sideBar{
+
+    background-color:black;
+    color: white;
+    padding: 50px;
+    position: relative;
+}
+.sideBar i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.sideBar ul li{
+   list-style-type: none;
+   padding-block: 50px;
+   padding-inline: 50px;
+justify-content: center;
+}
+.sideBarIcon{
+    align-self: center;
+    cursor: pointer;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    color: white;
+
+}
+
+.sideBarContainer img{
+    width: 40px;
+    padding: 5px;
+    cursor: pointer;
+}
+/* =============Second Section========== */
+.containar{
+    background-color: #fff;
+    width: 50%;
+    overflow: auto;
+    margin: auto;
+    text-align: center;
+
+}
+
+.container .h3,  h3 {
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
+    background-color: #E68184;
+}
+.container .h1, .h2, .h4, .h5, .h6, h1, h2,  h4, h5, h6 {
+    cursor: pointer;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
+    background-color: none;
+}
+.container .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    
+    margin-bottom: 0rem;
+  
+}
+#duration p{
+    padding: 20px;
+ 
+    background-color: #CCCCCC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 0;
+    display: none;
+}
+
+/*============= Third Section============= */
+#details{
+    width: 100%;
+    background-image:linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)) , url(../img/invitation-2508607__340\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    justify-content: space-around;
+}
+.box{
+    border: 1px solid #fff;
+    display: inline-block;
+    padding-inline: 5%;
+    padding-block: 3%;
+    margin-inline: 50px;
+    margin-block:5% ;
+    font-size:30px ;
+    line-height: 45px;
+    font-weight: 500;
+}
+/*============= Forth Section============= */
+
+.iconsContainer i{
+ color: gray;
+ transition: color 340ms , background-color 340ms;
+}
+.iconsContainer i:hover{
+ background-color: #D62E33;
+ color: white;
+}
